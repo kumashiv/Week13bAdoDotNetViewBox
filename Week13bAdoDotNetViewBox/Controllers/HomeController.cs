@@ -13,7 +13,6 @@ namespace Week13bAdoDotNetViewBox.Controllers
     {
 
         Week13bAdoDotNetViewBoxDBEntities _db = new Week13bAdoDotNetViewBoxDBEntities();    // Object from Model1.Context.cs
-
         public ActionResult Index()
         {
             return View();
